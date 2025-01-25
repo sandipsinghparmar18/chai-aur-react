@@ -4,6 +4,9 @@
 
 
 /* index.css */
+html {
+  scroll-behavior: smooth;
+}
 body {
   @apply bg-gray-100 dark:bg-gray-900;
 }
@@ -26,14 +29,6 @@ body {
 
 .about-section {
   @apply pt-20 py-12 px-8 bg-white;
-}
-
-.projects-section {
-  @apply pt-20 py-12 px-8 bg-gray-100;
-}
-
-.testimonials-section {
-  @apply pt-20 py-12 px-8 bg-gray-200;
 }
 
 .contact-section {

@@ -5,12 +5,11 @@ function Skills() {
     { name: 'HTML5', percentage: 90 },
     { name: 'CSS3', percentage: 85 },
     { name: 'JavaScript', percentage: 94 },
-    { name: 'Bootstrap', percentage: 80 },
     { name: 'Tailwind CSS', percentage: 88 },
     { name: 'RESTful APIs', percentage: 85 },
     { name: 'Node.js', percentage: 87 },
     { name: 'React.js', percentage: 92 },
-    { name: 'Express', percentage: 89 },
+    { name: 'Express.js', percentage: 89 },
     { name: 'MongoDB', percentage: 86 },
     { name: 'EJS', percentage: 83 },
   ];

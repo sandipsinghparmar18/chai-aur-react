@@ -89,7 +89,7 @@ function Contact() {
         {/* Buttons */}
         <div className="flex space-x-6 mb-12 justify-center">
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/sandip-singh-parmar-b29034251"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-gray-800 hover:bg-teal-500 px-6 py-3 rounded-lg transition-all duration-300"
@@ -97,7 +97,7 @@ function Contact() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/sandipsinghparmar18"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-gray-800 hover:bg-teal-500 px-6 py-3 rounded-lg transition-all duration-300"
