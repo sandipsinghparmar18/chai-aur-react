@@ -9,10 +9,11 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './index.css';
+import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (

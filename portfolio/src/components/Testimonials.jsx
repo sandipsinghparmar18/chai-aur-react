@@ -15,7 +15,7 @@ function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-12 px-8 bg-white">
+    <section id="testimonials" className="pt-16 pb-12 px-8 bg-white">
       <h2 className="text-3xl font-bold text-gray-800 text-center">Testimonials</h2>
       <div className="mt-8 flex flex-wrap justify-center">
         {testimonials.map((testimonial, index) => (

@@ -1,22 +1,15 @@
 import React from 'react';
-import profileImg from '../assets/profile.jpg';
 
 function Hero() {
   return (
-    <section className="bg-gray-900 text-white py-20 text-center relative">
-      <img
-        src={profileImg}
-        alt="Profile"
-        className="w-32 h-32 rounded-full mx-auto mb-6 shadow-lg"
-      />
-      <h1 className="text-4xl font-bold">Hi, I'm [Your Name]</h1>
-      <p className="text-xl mt-4">Final-Year Computer Science Student | MERN Stack Developer</p>
-      <a
-        href="#contact"
-        className="mt-6 inline-block bg-teal-500 text-white py-2 px-6 rounded-full shadow-lg hover:bg-teal-600 transition duration-300"
-      >
-        Contact Me
-      </a>
+    <section id="hero" className="hero-section pt-20" data-aos="fade-up">
+      <div className="container mx-auto text-center py-20 px-4">
+        <h1 className="text-5xl font-bold text-white">Welcome to My Portfolio</h1>
+        <p className="mt-4 text-lg text-gray-200">I am a passionate developer...</p>
+        <button className="mt-8 px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition duration-300">
+          Learn More
+        </button>
+      </div>
     </section>
   );
 }
