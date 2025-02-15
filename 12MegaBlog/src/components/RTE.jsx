@@ -14,7 +14,11 @@ export default function RTE({name, control, label, defaultValue =""}) {
     control={control}
     render={({field: {onChange}}) => (
         <Editor
+<<<<<<< HEAD
         apiKey={conf.rteApiId}
+=======
+        apiKey=import.meta.env.VITE_RTE_APIKEY
+>>>>>>> d52476a915f89408f4cfdef6c880b0f4c266d4a8
         initialValue={defaultValue}
         init={{
             initialValue: defaultValue,
